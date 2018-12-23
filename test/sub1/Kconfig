@@ -1,0 +1,4 @@
+config NCURSES
+	bool "ncurses test"
+	help
+	  ncurses test

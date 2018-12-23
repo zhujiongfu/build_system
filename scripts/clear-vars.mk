@@ -1,0 +1,19 @@
+MODULE :=
+module :=
+module_path :=
+module_subdirs :=
+module_cobjs :=
+module_cflags :=
+module_cxxobjs :=
+module_cxxflags :=
+module_link_path :=
+module_link_libs :=
+module_c_includes :=
+module_cxx_includes :=
+
+_cobjs :=
+_cxxobjs :=
+_target :=
+_subdirs :=
+_cleanobjs :=
+_targets :=

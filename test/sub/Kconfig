@@ -1,0 +1,14 @@
+config SUB
+	bool "sub"
+	help
+	  sub of test
+
+config THREAD
+	bool "thread"
+	help
+	  test shared lib
+
+config SHARED
+	bool "shared"
+	help
+	  test shared lib

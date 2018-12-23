@@ -1,0 +1,17 @@
+config TEST
+	bool "test module"
+	help
+	  test module
+
+config HELLOWORLD
+	bool "hello world"
+	help
+	  the demo of helloworld
+
+config CPP
+	bool "test cpp"
+	help
+	  test cpp
+
+source "test/sub/Kconfig"
+source "test/sub1/Kconfig"

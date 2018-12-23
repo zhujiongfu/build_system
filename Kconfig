@@ -1,0 +1,13 @@
+#
+# For a description of the syntax of this configuration file,
+# see Documentation/kbuild/kconfig-language.txt.
+#
+mainmenu "Kconfig Configuration"
+
+config TOP_TEST
+	bool "top test"
+	help
+	  top test
+
+source test/Kconfig
+# source "arch/$SRCARCH/Kconfig"
