@@ -77,7 +77,9 @@ endif
 
 objtree := .
 VPATH   := $(srctree)
+REGENERATE_PARSERS := 1
 
+export srctree objtree VPATH REGENERATE_PARSERS
 
 export srctree objtree VPATH
 
